@@ -1,0 +1,138 @@
+/*Geral*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.banner{
+    background-image: url('../img/photo7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    text-align: left;
+}
+
+.banner__texto{
+    color: white;
+    padding-top: 10%;
+    padding-left: 3%;
+}
+
+.banner__titulo{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.banner__subtitulo{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color:white;
+    color: #7E459B;
+    padding:10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sobre-mim{
+    margin:0 15%;
+    text-align: left;
+}
+
+.sobre-mim__descricao, .sobre-mim__habilidades{
+    display:inline-block;
+    width: 35%;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+.sobre-mim__habilidades{
+    margin-left: 200px;
+    vertical-align: top;
+}
+
+.sobre-mim__titulo{
+    font-size: 40px;
+    text-align: left;
+    color: #C4C4C4;
+    margin: 20px 0;
+}
+
+.destaque{
+    color: purple;
+    font-weight:  bold;
+}
+
+.sobre-mim__descricao p{
+    margin-bottom: 20px;
+}
+
+.btn-roxo{
+    border:1px solid purple;
+}
+
+.habilidaes__titulo{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.habilidades__lista{
+    padding-left: 20px;
+}
+
+/* rodape*/
+.rodape__contatos{
+    display: flex;
+    justify-content: space-between;
+    margin:3% 20%;
+}
+
+.contatos__link{
+    background-color: #7E459B;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.contatos__link-img{
+    width: 71px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.contatos__link h4, .contatos__link p{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.contatos__link h4{
+    font-weight: bold;
+}
+
+.contatos__link p{
+    font-weight: lighter;
+}
+
+.copyright{
+    color:#c4c4c4;
+    font-weight: lighter;
+    margin-bottom:10px;
+    padding: 10px;
+    text-align: center;
+}
