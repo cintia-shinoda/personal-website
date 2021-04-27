@@ -1,2 +1,1 @@
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4bee8a96-495b-420a-8cb9-817853fefb29/deploy-status)](https://app.netlify.com/sites/cintia-shinoda/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bea82a99-13b0-4666-a4f5-3a695acabd77/deploy-status)](https://app.netlify.com/sites/cintia-shinoda/deploys)
