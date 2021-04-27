@@ -102,6 +102,11 @@ a{
     padding-left: 20px;
 }
 
+.cv {
+    padding-top: 50px;
+    padding-left: 400px;
+}
+
 /* rodape*/
 .rodape__contatos{
     display: flex;
@@ -110,7 +115,6 @@ a{
 }
 
 .contatos__link{
-    background-color: #7E459B;
     padding: 20px 30px;
     text-align: center;
 }
