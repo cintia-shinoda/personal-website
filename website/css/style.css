@@ -59,7 +59,7 @@ a{
     text-align: left;
 }
 
-.sobre-mim__descricao, .sobre-mim__habilidades{
+.sobre-mim__descricao, .sobre-mim__habilidades, .sobre-mim__tools_and_languages{
     display:inline-block;
     width: 35%;
     font-size: 16px;
@@ -71,6 +71,11 @@ a{
 .sobre-mim__habilidades{
     margin-left: 200px;
     vertical-align: top;
+}
+
+.sobre-mim__tools_and_languages{
+    margin-left: 500px;
+    margin-top: -500px;
 }
 
 .sobre-mim__titulo{
